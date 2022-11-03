@@ -1,0 +1,14 @@
+#Trojan
+- name: trojan-ws
+server: localhost
+port: 3306
+type: server
+password: "102030"
+network: ws
+sni: rn.rockychen.online
+# skip-cert-verify: true
+udp: true
+# ws-opts:
+ # path: /rockychentrojan
+ # headers: trojan
+ # host: rn.rockychen.online
